@@ -1,0 +1,41 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.coluna {
+  width: 33.33%;
+  padding: 20px;
+}
+
+.texto-esquerdo {
+  background-color: #F08080;
+}
+
+.texto-meio {
+  background-color: #FFB6C1;
+}
+
+.texto-direito {
+  background-color: #FFC0CB;
+}
+
+.coluna p {
+  margin: 10px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center;
+  margin: 0;
+  background-color: #CD5C5C;
+  height: 15%;
+}
